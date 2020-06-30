@@ -21,9 +21,10 @@ public class Base {
         methods.put("print", this::print);
         methods.put("printNumbers", this::printNumbers);
         methods.put("printStrings", this::printStrings);
-        methods.put("number", this::numberCreate);
+        methods.put("num", this::numberCreate);
         methods.put("string", this::stringCreate);
         methods.put("=", this::assignValue);
+        //Затычки. Начало
         methods.put("+", this::print);
         methods.put("-", this::print);
         methods.put("*", this::print);
@@ -34,6 +35,7 @@ public class Base {
         methods.put("<=", this::print);
         methods.put("<", this::print);
         methods.put(">", this::print);
+        //Затычки. Конец
         objectName = "root";
     }
 
@@ -228,27 +230,31 @@ public class Base {
 
     int printNumbers(int i){
         System.out.println("Числовые переменные: ");
-        Iterator<HashMap.Entry<String, FloatVar>> iterator = numbers.entrySet().iterator();
-        while (iterator.hasNext())
-        {
-            Map.Entry<String, FloatVar> pair = iterator.next();
-            String key = pair.getKey();
-            float value = pair.getValue().value;
-            System.out.println(key + ":" + value);
+        if(numbers.size()>0) {
+            Iterator<HashMap.Entry<String, FloatVar>> iterator = numbers.entrySet().iterator();
+            while (iterator.hasNext()) {
+                Map.Entry<String, FloatVar> pair = iterator.next();
+                String key = pair.getKey();
+                float value = pair.getValue().value;
+                System.out.println(key + ":" + value);
+            }
         }
+        else System.out.println("null");
         return i;
     }
 
     int printStrings(int i){
         System.out.println("Строковые переменные: ");
-        Iterator<HashMap.Entry<String, StringVar>> iterator = strings.entrySet().iterator();
-        while (iterator.hasNext())
-        {
-            Map.Entry<String, StringVar> pair = iterator.next();
-            String key = pair.getKey();
-            String value = pair.getValue().value;
-            System.out.println(key + ":" + value);
+        if(strings.size()>0) {
+            Iterator<HashMap.Entry<String, StringVar>> iterator = strings.entrySet().iterator();
+            while (iterator.hasNext()) {
+                Map.Entry<String, StringVar> pair = iterator.next();
+                String key = pair.getKey();
+                String value = pair.getValue().value;
+                System.out.println(key + ":" + value);
+            }
         }
+        else System.out.println("null");
         return i;
     }
 
