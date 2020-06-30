@@ -2,27 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68cbc754-6e70-46fb-a92e-139fe225f100" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeaNovelScript.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TeaNovelScript/META-INF/TeaNovelScript.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TeaNovelScript/com/company/Base.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TeaNovelScript/com/company/Element.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TeaNovelScript/com/company/FloatVar.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TeaNovelScript/com/company/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TeaNovelScript/com/company/Method.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TeaNovelScript/com/company/StringVar.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TeaNovelScript/com/company/Variable.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Base.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Element.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/FloatVar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/StringVar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Variable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TeaNovelScript/META-INF/TeaNovelScript.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TeaNovelScript/com/company/Base.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TeaNovelScript/com/company/Base.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TeaNovelScript/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TeaNovelScript/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TeaNovelScript/com/company/Method.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TeaNovelScript/com/company/Method.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Base.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +79,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

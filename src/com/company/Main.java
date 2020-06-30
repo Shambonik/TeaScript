@@ -12,8 +12,11 @@ public class Main {
         Base obj = new Base();
         while(true) {
             String str = in.nextLine();
+            str = obj.normalize(str);
             obj.parse(str);
-            obj.printElements();
+            //obj.printElements();
+            obj.perform();
+            //obj.printNumbers();
         }
     }
 }
